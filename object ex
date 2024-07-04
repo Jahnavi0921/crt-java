@@ -1,0 +1,14 @@
+class Example1{
+int a;
+double b;
+public static void main(String args[]){
+Example1 ex1=new Example1();
+ex1.a=100;
+ex1.b=45.76;
+System.out.println(ex1.a+" "+ex1.b);
+Example1 ex2=new Example1();
+ex2.a=222;
+ex2.b=98.33;
+System.out.println(ex2.a+" "+ex2.b);
+}
+}
